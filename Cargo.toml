@@ -2,5 +2,8 @@
 name = "utils_rust"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+documentation = "自己用的辅助代码"
+description = "这是一个用于各种实用功能的 Rust 库"
 
 [dependencies]
