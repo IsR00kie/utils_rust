@@ -1,14 +1,9 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+// region: ---- 模块
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+// -- 展开模块
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+// -- 公开模块
+
+pub mod ascii;
+
+// endregion: ---- 模块
